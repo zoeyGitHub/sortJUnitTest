@@ -11,6 +11,11 @@ notifications:
             - fzd9887@gamil.com
         on_success: always         
         on_failure: always
+beforeinstall:
+
+install:
+
+beforescript:
 script:    
     - javac -d . -cp junit-4.12.jar *.java    
     - java ntou.cs.sorter.MySorterMain
