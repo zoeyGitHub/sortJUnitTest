@@ -4,7 +4,7 @@ jdk:
     - oraclejdk7 
 branches:    
     only:        
-        - JunitTest
+        - master
 notifications:    
     email:        
         recipients:                    
